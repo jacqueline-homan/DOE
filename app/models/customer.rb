@@ -1,5 +1,5 @@
 class Customer < ActiveRecord::Base
-  attr_accessor :email
+  attr_accessible :email
 
   has_many :utilities  
 end
