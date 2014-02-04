@@ -1,5 +1,7 @@
 DOE::Application.routes.draw do
   root to: "home#show", via: :get
+
+  resources :customers, only:[:create, :show, :new, :update]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
