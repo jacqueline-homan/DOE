@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20140203200427) do
     t.string   "propane"
     t.boolean  "alt_heat"
     t.string   "alt_heat_fuel"
+    t.integer  "zipcode"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

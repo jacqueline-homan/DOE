@@ -13,11 +13,13 @@
 <%= f.text_field :nat_gas %><br />
 <%= f.label 'Enter "LPG" if you use propane' %>
 <%= f.text_field :propane %><br />
-<%= f.label "Alternative Energy/Heating Source?" %>
+<%= f.label "Alternative Energy/Heating Source? (YES/NO)" %>
+<%= f.text_field :alt_heat_fuel %>
 
 
  
 <br />
 <%= f.submit "Submit" %>
+
 
 <% end %>

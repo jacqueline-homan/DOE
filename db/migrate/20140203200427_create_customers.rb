@@ -10,6 +10,7 @@ class CreateCustomers < ActiveRecord::Migration
       t.string :propane
       t.boolean :alt_heat
       t.string :alt_heat_fuel
+      t.integer :zipcode
 
       t.timestamps
     end
