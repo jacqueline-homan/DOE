@@ -17,6 +17,9 @@ ActiveRecord::Schema.define(version: 20140203200427) do
   enable_extension "plpgsql"
 
   create_table "customers", force: true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
     t.string   "electric"
     t.string   "gas"
     t.string   "oil"
